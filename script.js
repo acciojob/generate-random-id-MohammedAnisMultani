@@ -6,7 +6,7 @@ function makeid(l) {
 	for(let i=0; i<l; i++){
  result += characters.charAt(Math.floor(Math.random()*charctersLength))
 	}
-	return result    
+	console.log(result)  
 	
 
 // Do not change the code below.
