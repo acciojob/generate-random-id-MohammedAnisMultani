@@ -2,7 +2,7 @@ function makeid(l) {
 
 	let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 	let result = ''
-	let charctersLength = charcters.length
+	let charctersLength = characters.length
 	for(let i=0; i<l; i++){
  result += characters.charAt(Math.floor(Math.random()*charctersLength))
 	}
